@@ -48,10 +48,13 @@ Merci de lister tous les membres de l'équipe ayant participé au Hackathon.
 Problématique :  
 PoketraFinday fait face à des fraudes variées comme le vol d’identité ou le “SIM‑swap”, où des fraudeurs prennent le contrôle du numéro de téléphone.
 Ces attaques nuisent à la confiance des utilisateurs, car un compte peut être vidé ou usurpé.Il est donc essentiel de mettre en place un modèle de détection de fraude : manquer une fraude peut coûter très cher, mais bloquer un utilisateur innocent pourrait décourager les clients fidèles.
+
 Méthodologie Adoptée : 
 Notre approche a combiné une EDA approfondie centrée sur le déséquilibre des classes, un feature engineering temporel (heures, jours, délais depuis l'inscription) et transactionnel, et l'implémentation séquentielle de modèles de complexité croissante. La stratégie de validation a reposé sur un split stratifié (80/20) avec SMOTE pour gérer le déséquilibre, en privilégiant le F1-Score comme métrique principale pour optimiser le compromis entre précision et rappel dans un contexte de fraude.
-Résultats Obtenus :  
+
+Résultats Obtenus : 
 Notre meilleur F1-Score sur le jeu de validation est de 0.712 avec XGBoost optimisé. Une découverte clé de l'analyse révèle que les transactions frauduleuses présentent une concentration significative durant les heures creuses (20h-4h) et concernent majoritairement les nouveaux utilisateurs (moins de 7 jours depuis l'inscription), avec des montants anormalement élevés pour leur profil. 
+
 Mots-clés :  
 Détection de Fraude
 
