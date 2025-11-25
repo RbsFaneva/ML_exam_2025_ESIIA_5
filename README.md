@@ -128,3 +128,11 @@ Toutes fraudes détectées : Analyse des patterns pour identifier les comptes co
 Cette approche équilibre sécurité et expérience client, avec un taux de faux positifs contrôlé à 3.2% dans notre validation.
 
 ### **5\. Bibliographie**
+
+He, H., & Garcia, E. A. (2009). "Learning from Imbalanced Data". IEEE Transactions on Knowledge and Data Engineering.
+
+Chawla, N. V., et al. (2002). "SMOTE: Synthetic Minority Over-sampling Technique". Journal of Artificial Intelligence Research.
+
+Bhattacharyya, S., et al. (2011). "Data Mining for Credit Card Fraud: A Comparative Study". Decision Support Systems.
+
+Whitrow, C., et al. (2009). "Transaction Aggregation as a Strategy for Credit Card Fraud Detection". Data Mining and Knowledge Discovery.
